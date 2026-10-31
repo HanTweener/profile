@@ -1,8 +1,6 @@
 services:
   web:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: ghcr.io/hantweener/profile:latest
     container_name: web-profile-app
     restart: unless-stopped
     ports:
@@ -26,4 +24,3 @@ services:
 networks:
   web-net:
     driver: bridge
-
