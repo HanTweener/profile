@@ -30,23 +30,18 @@ function ProfileCard() {
                 <p className="text-xs text-blue-300 font-serif">// {profile.role}</p>
             </div>
 
-            {/* Label kolom */}
-            <div className="flex flex-col gap-1 py-4 ">
+            {/* Info rows: label dikiri, value dikanan */}
+            <div className="col-span-2 py-4 flex flex-col gap-2">
                 {infoRows.map((row) => (
-                    <span key={row.label} className="text-sm text-gray-500 font-serif">{row.label}</span>
-                ))}
-            </div>
-
-            {/* Value kolom */}
-            <div className="flex flex-col gap-1 py-4 items-end">
-                {infoRows.map((row) => (
-                    <span
-                        key={row.label}
-                        className={`text-sm font-serif flex items-center gap-2 ${row.dot ? 'text-blue-300' : 'text-gray-500'}`}
-                    >
-                        {row.dot && <span className="w-2 h-2 bg-blue-300 rounded-full"></span>}
-                        {row.value}
-                    </span>
+                    <div key={row.label} className="flex justify-between items-center gap-3">
+                        <span className="text-sm text-gray-500 font-serif shrink-0">{row.label}</span>
+                        <span
+                            className={`text-sm font-serif flex items-center gap-2 text-right justify-end min-w-0 ${row.dot ? 'text-blue-300' : 'text-gray-500'}`}
+                        >
+                            {row.dot && <span className="w-2 h-2 bg-blue-300 rounded-full shrink-0"></span>}
+                            <span className="truncate">{row.value}</span>
+                        </span>
+                    </div>
                 ))}
             </div>
 

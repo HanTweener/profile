@@ -15,7 +15,7 @@ function About() {
     ]
 
     return (
-        <div id="about" className="bg-gray-950 grid grid-cols-1 lg:grid-cols-2 content-center gap-10 px-5 lg:px-20 py-20">
+        <div id="about" className="bg-gray-950 grid grid-cols-1 lg:grid-cols-2 content-center gap-10 px-4 sm:px-5 lg:px-20 py-20">
 
             {/* Kolom kiri: label + paragraf + code box */}
             <div className="flex flex-col">
@@ -47,16 +47,18 @@ function About() {
             </div>
 
             {/* Kolom kanan: card info */}
-            <motion.div {...scrollReveal} className="flex flex-col justify-center bg-gray-950 rounded-lg ring-1 ring-gray-800">
+            <motion.div {...scrollReveal} className="flex flex-col justify-center bg-gray-950 rounded-lg ring-1 ring-gray-800 overflow-hidden">
                 {infoList.map((item, index) => (
                     <div
                         key={item.label}
-                        className={`flex justify-between items-center px-6 py-4 ${
+                        className={`flex justify-between items-baseline gap-3 sm:gap-4 px-4 sm:px-6 py-3.5 sm:py-4 ${
                             index !== infoList.length - 1 ? 'border-b border-gray-800' : ''
                         }`}
                     >
-                        <span className="text-gray-500 font-mono text-xs">{item.label}</span>
-                        <span className="text-white font-semibold text-sm">{item.value}</span>
+                        <span className="text-gray-500 font-mono text-xs shrink-0">{item.label}</span>
+                        <span className="text-white font-semibold text-xs sm:text-sm text-right min-w-0 flex-1 break-words [overflow-wrap:anywhere]">
+                            {item.value}
+                        </span>
                     </div>
                 ))}
             </motion.div>
