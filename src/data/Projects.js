@@ -27,6 +27,5 @@ export const projects = [
             'Catter Coffee Center adalah website profil untuk kedai kopi & kafe yang berlokasi di Turen, Kabupaten Malang, dengan tagline "A Fresh Breeze from The South". Situsnya bergaya visual modern, kombinasi warna hitam, oranye, dan putih tulang, dengan foto makanan/minuman yang jadi elemen utama tiap section (khas landing page one-page/single scroll).',
         tags: ['Canva'],
         year: '2026',
-        link: 'https://cattercoffee.center/',
     },
 ]
