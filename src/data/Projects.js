@@ -7,6 +7,7 @@ export const projects = [
             'Website berfungsi sebagai portal bagi guru dan siswa dalam proses penilaian dan pembelajaran. Memiliki 3 role (guru, siswa, admin) dengan input nilai bulanan, presensi, dan perhitungan rata-rata semester otomatis agar orang tua bisa memantau perkembangan anak secara langsung.',
         tags: ['Laravel', 'PHP', 'HTML', 'CSS', 'JavaScript', 'MySQL'],
         year: '2022',
+        link: 'https://siamialghivari.mfarhanf.dpdns.org/',
     },
     {
         number: '02',
