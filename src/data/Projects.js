@@ -16,6 +16,7 @@ export const projects = [
             'Sistem ujian online untuk mempermudah tes kompetensi peserta. Memiliki 3 role (guru, siswa, admin), diakses guru/admin via web dan siswa via mobile (Android). Mendukung import soal, notifikasi ujian, proktoring, dan perhitungan skor otomatis.',
         tags: ['Flutter', 'Dart', 'Google Firebase', 'PostgreSQL', 'Supabase'],
         year: '2026',
+        link: 'https://cbtsystem.mfarhanf.dpdns.org/',
     },
     {
         number: '03',
