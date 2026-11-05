@@ -24,7 +24,7 @@ export const profile = {
 
 export const stats = [
   { value: '3', label: 'Tahun Pengalaman' },
-  { value: '3', label: 'Proyek Selesai' },
+  { value: '4', label: 'Proyek Selesai' },
   { value: '', label: '' },
 ]
 
