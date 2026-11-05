@@ -33,7 +33,7 @@ export const projects = [
         category: 'SERVICE · WEB & MOBILE',
         title: 'REPARO - Aplikasi Jasa Service Elektronik',
         description:
-            'Reparo adalah platform manajemen operasional servis dan pemeliharaan perangkat (Maintenance & Repair Operations Web Platform) berskala produksi. Sistem ini dirancang untuk mendigitalisasi seluruh siklus hidup layanan reparasi secara transparan, akuntabel, dan terstruktur—menghubungkan Pelanggan, Kasir, Teknisi, dan Admin Operasional dalam satu ekosistem terpadu.',
+            'Reparo adalah platform manajemen operasional servis dan pemeliharaan perangkat (Maintenance & Repair Operations Web & Mobile Platform). Sistem ini dirancang untuk mendigitalisasi seluruh siklus hidup layanan reparasi secara transparan, akuntabel, dan terstruktur—menghubungkan Pelanggan, Kasir, Teknisi, dan Admin Operasional dalam satu ekosistem terpadu.',
         tags: ['SQLite','Laravel','Flutter'],
         year: '2026',
         link: 'https://reparov1.mfarhanf.dpdns.org/'
