@@ -1,7 +1,7 @@
 export const projects = [
     {
         number: '01',
-        category: 'ACADEMIC · WEB',
+        category: 'EDUCATION · WEB',
         title: 'Sistem Informasi Akademik Berbasis Web',
         description:
             'Website berfungsi sebagai portal bagi guru dan siswa dalam proses penilaian dan pembelajaran. Memiliki 3 role (guru, siswa, admin) dengan input nilai bulanan, presensi, dan perhitungan rata-rata semester otomatis agar orang tua bisa memantau perkembangan anak secara langsung.',
