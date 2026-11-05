@@ -18,7 +18,7 @@ export const profile = {
   },
   entitas: 'Fresh Graduate / Full-time',
   sektor: 'Web · Mobile · Sistem Informasi',
-  pengalaman: '3 Tahun · 3 Proyek Utama',
+  pengalaman: '3 Tahun · 4 Proyek Utama',
 }
 
 
