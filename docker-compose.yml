@@ -1,0 +1,27 @@
+services:
+  web:
+    image: ${DOCKER_IMAGE:-ghcr.io/hantweener/web-profile:latest}
+    container_name: web-profile-app
+    restart: unless-stopped
+    ports:
+      # Local access port mapped to container port 80 (Nginx)
+      # Configurable via APP_PORT in .env (e.g. 3000 or 80)
+      - "${APP_PORT:-3000}:80"
+    networks:
+      - web-net
+
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    container_name: web-profile-tunnel
+    restart: unless-stopped
+    command: tunnel --no-autoupdate run
+    environment:
+      - TUNNEL_TOKEN=${TUNNEL_TOKEN}
+    networks:
+      - web-net
+    depends_on:
+      - web
+
+networks:
+  web-net:
+    driver: bridge

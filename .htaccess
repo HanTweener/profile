@@ -1,0 +1,18 @@
+Options +FollowSymLinks -Indexes
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Set file indeks default ke dist/index.html
+  DirectoryIndex dist/index.html
+
+  # Jika akses root domain (http://localhost/), tampilkan isi dist/index.html
+  RewriteRule ^$ dist/index.html [L]
+
+  # Mengarahkan file/asset yang tidak ada di root agar diambil dari folder dist/
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_URI} !^/dist/
+  RewriteRule ^(.*)$ dist/$1 [L]
+</IfModule>

@@ -1,0 +1,13 @@
+node_modules
+dist
+dist-ssr
+.git
+.gitignore
+.env
+.env.*
+.kilo
+.vscode
+.idea
+README.md
+deploy.ps1
+.htaccess
