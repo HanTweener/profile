@@ -21,13 +21,13 @@ export const projects = [
     },
     {
         number: '03',
-        category: 'F&B · WEB & MOBILE',
-        title: 'Catter Coffee Center Web Profile',
+        category: 'Health · WEB',
+        title: 'RUANG BACA CMI - Platform Informasi Klinik CMI',
         description:
-            'Catter Coffee Center adalah website profil untuk kedai kopi & kafe yang berlokasi di Turen, Kabupaten Malang, dengan tagline "A Fresh Breeze from The South". Situsnya bergaya visual modern, kombinasi warna hitam, oranye, dan putih tulang, dengan foto makanan/minuman yang jadi elemen utama tiap section (khas landing page one-page/single scroll).',
-        tags: ['Canva'],
+            'Website artikel untuk Ujian Masuk IT CMI, menggunakan Laravel, MySQL, Eloquent, dan Blade. Proyek demo dengan antarmuka berbahasa Indonesia; bukan situs resmi Klinik Utama CMI.',
+        tags: ['MySQL', 'Laravel', 'Blade'],
         year: '2026',
-        link: import.meta.env.VITE_PROJECT_3_URL || 'https://cattercoffee.center/',
+        link: import.meta.env.VITE_PROJECT_4_URL || 'https://bacacmiv1.mfarhanf.dpdns.org/',
     },
     {
         number: '04',
