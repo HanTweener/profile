@@ -1,18 +1,18 @@
 export const skillGroups = [
     {
         category: 'FRONTEND',
-        items: ['React.js', 'Next.js', 'HTML', 'Dart (Flutter)', 'Tailwind CSS'],
+        items: ['React.js', 'Next.js', 'HTML', 'Flutter', 'Tailwind CSS', 'shadcn/ui'],
     },
     {
         category: 'BACKEND',
-        items: ['Laravel', 'PHP', 'TypeScript', 'C++'],
+        items: ['Laravel', 'TypeScript', 'Go', 'Node.js'],
     },
     {
         category: 'DATABASE',
-        items: ['MySQL', 'PostgreSQL', 'SQLite', 'Supabase'],
+        items: ['MySQL', 'PostgreSQL', 'SQLite'],
     },
     {
         category: 'TOOLS & OTHERS',
-        items: ['Git', 'Google Firebase', 'Postman'],
+        items: ['Git', 'Google Firebase', 'Postman', 'Docker', 'Supabase'],
     },
 ]
