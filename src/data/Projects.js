@@ -5,7 +5,7 @@ export const projects = [
         title: 'Sistem Informasi Akademik Berbasis Web',
         description:
             'Website berfungsi sebagai portal bagi guru dan siswa dalam proses penilaian dan pembelajaran. Memiliki 3 role (guru, siswa, admin) dengan input nilai bulanan, presensi, dan perhitungan rata-rata semester otomatis agar orang tua bisa memantau perkembangan anak secara langsung.',
-        tags: ['MySQL', 'Laravel', 'PHP', 'React.js', 'Tailwind CSS', 'TypeScript'],
+        tags: ['MySQL', 'Laravel', 'React.js', 'Tailwind CSS', 'TypeScript'],
         year: '2022',
         link: import.meta.env.VITE_PROJECT_1_URL || 'https://siamialghivari.mfarhanf.dpdns.org/',
     },
