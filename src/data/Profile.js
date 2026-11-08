@@ -32,4 +32,4 @@ export const stats = [
 ]
 
 // Tech stack utama (ditampilkan di ProfileCard)
-export const mainTechStack = ['React', 'Next', 'Flutter', 'Laravel']
+export const mainTechStack = ['React', 'Node', 'Flutter', 'Laravel']
