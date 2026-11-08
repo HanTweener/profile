@@ -27,9 +27,20 @@ export const projects = [
             'Catter Coffee Center adalah website profil untuk kedai kopi & kafe yang berlokasi di Turen, Kabupaten Malang, dengan tagline "A Fresh Breeze from The South". Situsnya bergaya visual modern, kombinasi warna hitam, oranye, dan putih tulang, dengan foto makanan/minuman yang jadi elemen utama tiap section (khas landing page one-page/single scroll).',
         tags: ['Canva'],
         year: '2026',
+        link: import.meta.env.VITE_PROJECT_3_URL || 'https://cattercoffee.center/',
     },
     {
         number: '04',
+        category: 'FASHION E-COMMERCE · WEB',
+        title: 'MIRA & VALE - Currated Fashion Exhange Platform',
+        description:
+            'A luxury resale boutique web application for thoughtfully selected bags, small leather goods, and accessories with a second chapter.',
+        tags: ['SQLite', 'Go', 'React.js', 'Tailwind CSS'],
+        year: '2026',
+        link: import.meta.env.VITE_PROJECT_5_URL || 'https://miravale.mfarhanf.dpdns.org/',
+    },
+    {
+        number: '05',
         category: 'SERVICE · WEB & MOBILE',
         title: 'REPARO - Aplikasi Jasa Service Elektronik',
         description:
@@ -37,15 +48,5 @@ export const projects = [
         tags: ['SQLite', 'Laravel', 'Flutter'],
         year: '2026',
         link: import.meta.env.VITE_PROJECT_4_URL || 'https://reparov1.mfarhanf.dpdns.org/',
-    },
-    {
-        number: '05',
-        category: 'FASHION E-COMMERCE · WEB & MOBILE',
-        title: 'MIRA & VALE - Aplikasi Jasa Service Elektronik',
-        description:
-            'A luxury resale boutique web application for thoughtfully selected bags, small leather goods, and accessories with a second chapter.',
-        tags: ['SQLite', 'Laravel', 'Flutter'],
-        year: '2026',
-        link: import.meta.env.VITE_PROJECT_5_URL || 'https://miravale.mfarhanf.dpdns.org/',
     },
 ]
