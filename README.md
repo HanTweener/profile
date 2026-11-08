@@ -94,8 +94,8 @@ web-profile/
 
 1. **Clone repository**
    ```bash
-   git clone https://github.com/HanTweener/web-profile-2.git
-   cd web-profile-2
+   git clone https://github.com/HanTweener/profile.git
+   cd profile
    ```
 
 2. **Setup Environment Variables**

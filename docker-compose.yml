@@ -1,6 +1,6 @@
 services:
   web:
-    image: ${DOCKER_IMAGE:-ghcr.io/hantweener/web-profile:latest}
+    image: ${DOCKER_IMAGE:-ghcr.io/hantweener/profile:latest}
     container_name: web-profile-app
     restart: unless-stopped
     ports:
