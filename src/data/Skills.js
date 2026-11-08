@@ -1,11 +1,11 @@
 export const skillGroups = [
     {
         category: 'FRONTEND',
-        items: ['React.js', 'Next.js', 'HTML', 'Flutter', 'Tailwind CSS', 'shadcn/ui'],
+        items: ['React', 'Next', 'HTML', 'Flutter', 'Tailwind CSS', 'shadcn/ui'],
     },
     {
         category: 'BACKEND',
-        items: ['Laravel', 'TypeScript', 'Go', 'Node.js'],
+        items: ['Laravel', 'TypeScript', 'Go', 'Node'],
     },
     {
         category: 'DATABASE',
